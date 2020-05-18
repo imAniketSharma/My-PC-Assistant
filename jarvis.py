@@ -113,7 +113,7 @@ if __name__ == "__main__":
             
         if 'play news' in query:
             speak('searching news for today...')
-            url = "https://newsapi.org/v2/top-headlines?country=in&apiKey=b25131da270a49cf9ae95c41f97245ed "
+            url = "https://newsapi.org/v2/top-headlines?country=in&apiKey=yourapi "
             news = requests.get(url).text
             news_json = json.loads(news)
             print(news_json["articles"])
