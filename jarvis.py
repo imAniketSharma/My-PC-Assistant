@@ -136,7 +136,7 @@ if __name__ == "__main__":
                 content = takeCommand()
                 # speak("Whom this email is to send?")
                 # to = takeCommand()
-                to = "aniketsharma552@gmail.com"    
+                to = "email@gmail.com"    
                 sendEmail(to, content)
                 speak("Email has been sent!")
             except Exception as e:
